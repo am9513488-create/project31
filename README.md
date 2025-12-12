@@ -1,16 +1,19 @@
 # project31
 # Beneddine Amel Biochimie appliquée 07/12/2025
 # membres de groupe:(
-# Beneddine Amel
-# Benali Samia
-# Meghelli Hichem
-# Meghelli Souheil
-# Bendada Ilyas Abderrezzak)
+
+                     # Beneddine Amel
+                     # Benali Samia
+                     # Meghelli Hichem
+                     # Meghelli Souheil
+                     # Bendada Ilyas Abderrezzak)
 
 import pandas as pd
 
-# Donnees : Séquences ADN, Longueur, Pourcentage de GC
+#Donnees : Séquences ADN, Longueur, Pourcentage de GC
+
 data = {
+   
     "séquence": ["ATGCGTACGTA","GCTAGCTAGGCC","ATGCGCGTAAGT","TACGATCGTA","ATGAAAGGCTT","CGTACGTAGC","TTAACCGGAT"],
     "Longueur": [11, 12, 12, 10, 11, 10, 10],
     "Pourcentage GC": [50, 66.67, 58.33, 40, 45.45, 60, 50],
